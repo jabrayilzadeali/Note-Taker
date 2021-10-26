@@ -1,0 +1,55 @@
+.modal {
+	padding: 15px;
+	position: fixed;
+	width: 300px;
+	height: 400px;
+	background-color: white;
+	color: black;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+
+.your-notes > p {
+	width: 50px;
+}
+
+.overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+#your-notes {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.note {
+	background-color: #f2f2f2;
+	width: 300px;
+	padding: 15px;
+	margin: 5px;
+}
+
+#modals h4 {
+	font-size: 1.3rem;
+}
+
+.text-width {
+	width: 250px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.text-wrap {
+	width: 250px;
+	overflow-wrap: break-word;
+}
+
